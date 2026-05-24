@@ -1,0 +1,64 @@
+/* 전체 배경 설정 */
+body {
+    background-color: #f7f5f0; /* 따뜻한 아이보리 색상 */
+    font-family: 'Malgun Gothic', sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 편지지 상자 */
+.letter-container {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* 은은한 그림자 */
+    line-height: 1.8;
+}
+
+/* 제목 스타일 */
+header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+header .date {
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 본문 스타일 */
+.letter-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-indent: 10px; /* 앞글자 들여쓰기 */
+}
+
+/* 강조하고 싶은 명언/좋은 말 구절 */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 4px solid #8e44ad; /* 포인트가 되는 보라색 선 */
+    margin: 30px 0;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #444444;
+}
+
+/* 푸터 (서명) */
+footer {
+    margin-top: 40px;
+    text-align: right;
+    font-size: 16px;
+    color: #555555;
+}
